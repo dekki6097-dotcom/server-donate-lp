@@ -1,2 +1,15 @@
-# server-donate-lp
-Simple donation landing page for a game server
+# Valkyrie Realm
+
+Премиальный статический лендинг для поддержки игрового сервера.
+
+## Просмотр локально
+
+Откройте `index.html` двойным кликом или запустите:
+
+```bash
+python -m http.server 8000
+```
+
+Затем перейдите на http://localhost:8000.
+
+> Кнопки оплаты пока являются демонстрационными ссылками-заглушками.
