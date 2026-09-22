@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Поддержите сервер и получите эксклюзивные привилегии, ранги, бонусы и доступ к закрытым событиям."
+    />
+    <title>Valkyrie Realm | Пожертвования</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Orbitron:wght@500;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <div class="container nav">
+          <div class="brand" aria-label="Логотип сервера">
+            <span class="brand-mark">V</span>
+            <div>
+              <span class="brand-title">Valkyrie</span>
+              <span class="brand-subtitle">Realm</span>
+            </div>
+          </div>
+
+          <nav class="nav-links" aria-label="Основная навигация">
+            <a href="#features">Преимущества</a>
+            <a href="#tiers">Пакеты</a>
+            <a href="#faq">FAQ</a>
+          </nav>
+
+          <a class="btn btn-primary" href="#tiers">Поддержать</a>
+        </div>
+      </header>
+
+      <main>
+        <section class="hero">
+          <div class="container hero-grid">
+            <div class="hero-copy">
+              <p class="eyebrow">Премиум сервер • Сезон 7</p>
+              <h1>Стань частью элиты <span>Valkyrie Realm</span></h1>
+              <p class="lead">
+                Поддержи развитие сервера, помоги открыть новые локации, улучшить
+                PvP, обновить события и получить эксклюзивные награды для своей
+                команды.
+              </p>
+
+              <div class="hero-actions">
+                <a class="btn btn-primary" href="#tiers">Поддержать сервер</a>
+                <a class="btn btn-secondary" href="#features">Узнать больше</a>
+              </div>
+
+              <ul class="trust-list" aria-label="Преимущества доната">
+                <li>⚡ Быстрый старт</li>
+                <li>🎁 Эксклюзивные награды</li>
+                <li>🛡️ Поддержка проекта</li>
+              </ul>
+            </div>
+
+            <div class="hero-panel" aria-label="Статистика сервера">
+              <div class="status-card glow">
+                <div class="status-row">
+                  <span>Онлайн</span>
+                  <span class="online-pill">3 428</span>
+                </div>
+                <div class="server-name">Valkyrie Realm // PvE + PvP</div>
+                <div class="stat-grid">
+                  <div>
+                    <strong>12</strong>
+                    <span>новых карт</span>
+                  </div>
+                  <div>
+                    <strong>48h</strong>
+                    <span>обновление</span>
+                  </div>
+                  <div>
+                    <strong>4.9</strong>
+                    <span>рейтинг</span>
+                  </div>
+                  <div>
+                    <strong>24/7</strong>
+                    <span>техподдержка</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="features section" id="features">
+          <div class="container">
+            <div class="section-heading">
+              <p class="eyebrow">Почему стоит поддержать</p>
+              <h2>Развиваем сервер вместе</h2>
+            </div>
+
+            <div class="feature-grid">
+              <article class="feature-card">
+                <div class="icon">⚔️</div>
+                <h3>Новые события</h3>
+                <p>
+                  Регулярные рейды, сезонные ивенты, турниры и кастомные задания для
+                  каждого игрока.
+                </p>
+              </article>
+
+              <article class="feature-card">
+                <div class="icon">🧩</div>
+                <h3>Лучший геймплей</h3>
+                <p>
+                  Мы улучшаем баланс, обновляем сервера, исправляем баги и развиваем
+                  новые механики игры.
+                </p>
+              </article>
+
+              <article class="feature-card">
+                <div class="icon">🎁</div>
+                <h3>Эксклюзивные награды</h3>
+                <p>
+                  Привилегия, уникальные скины, ранги, кейсы и личные бонусы для
+                  донатеров.
+                </p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="tiers section" id="tiers">
+          <div class="container">
+            <div class="section-heading">
+              <p class="eyebrow">Пакеты поддержки</p>
+              <h2>Выбери свой уровень</h2>
+            </div>
+
+            <div class="tier-grid">
+              <article class="tier-card">
+                <div class="tier-header">
+                  <span class="tier-badge bronze">Bronze</span>
+                  <h3>Starter</h3>
+                </div>
+                <div class="price">299 ₽</div>
+                <ul>
+                  <li>+1 слот для привилегии</li>
+                  <li>Бонус на старте сервера</li>
+                  <li>Доступ к VIP-чат</li>
+                </ul>
+                <a href="#" class="btn btn-secondary">Поддержать</a>
+              </article>
+
+              <article class="tier-card featured">
+                <div class="tier-header">
+                  <span class="tier-badge gold">Gold</span>
+                  <h3>Guardian</h3>
+                </div>
+                <div class="price">799 ₽</div>
+                <ul>
+                  <li>Все плюсы Starter</li>
+                  <li>Кастомный титул</li>
+                  <li>Бонусы в событиях</li>
+                  <li>Эксклюзивная роль</li>
+                </ul>
+                <a href="#" class="btn btn-primary">Поддержать</a>
+              </article>
+
+              <article class="tier-card">
+                <div class="tier-header">
+                  <span class="tier-badge purple">Diamond</span>
+                  <h3>Legend</h3>
+                </div>
+                <div class="price">1 999 ₽</div>
+                <ul>
+                  <li>Все плюсы Guardian</li>
+                  <li>Редкий набор скинов</li>
+                  <li>Личная поддержка</li>
+                  <li>VIP-подарки</li>
+                </ul>
+                <a href="#" class="btn btn-secondary">Поддержать</a>
+              </article>
+
+              <article class="tier-card">
+                <div class="tier-header">
+                  <span class="tier-badge red">Mythic</span>
+                  <h3>Ascendant</h3>
+                </div>
+                <div class="price">4 999 ₽</div>
+                <ul>
+                  <li>Все плюсы Legend</li>
+                  <li>Личная корона</li>
+                  <li>Персональный VIP</li>
+                  <li>Участие в закрытых ивентах</li>
+                </ul>
+                <a href="#" class="btn btn-secondary">Поддержать</a>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="reviews section">
+          <div class="container">
+            <div class="section-heading">
+              <p class="eyebrow">Комьюнити</p>
+              <h2>Что говорят игроки</h2>
+            </div>
+
+            <div class="review-grid">
+              <blockquote class="review-card">
+                “Лучший проект, в котором я чувствую, что мой донат реально помогает
+                развитию сервера. Награды ощущаются по-настоящему.”
+                <footer>— SkyRift, PvP-игрок</footer>
+              </blockquote>
+
+              <blockquote class="review-card">
+                “Сервер постоянно обновляется, а поддержка даёт отличные бонусы без
+                лишней навязчивости. Очень комфортный опыт.”
+                <footer>— Noxen, администратор</footer>
+              </blockquote>
+
+              <blockquote class="review-card">
+                “Режимы, события и атмосфера сервера — на высшем уровне. Поддержка
+                всегда оправдана.”
+                <footer>— Vespera, строитель</footer>
+              </blockquote>
+            </div>
+          </div>
+        </section>
+
+        <section class="faq section" id="faq">
+          <div class="container faq-wrap">
+            <div class="section-heading left">
+              <p class="eyebrow">FAQ</p>
+              <h2>Частые вопросы</h2>
+            </div>
+
+            <div class="faq-list">
+              <details open>
+                <summary>Когда будут начисляться награды?</summary>
+                <p>После подтверждения оплаты привилегии и бонусы активируются в течение 10–15 минут.</p>
+              </details>
+
+              <details>
+                <summary>Можно ли сменить пакет?</summary>
+                <p>Да. Вы можете перейти на более высокий пакет в любое время, и разница будет учтена.</p>
+              </details>
+
+              <details>
+                <summary>Есть ли возвраты?</summary>
+                <p>Возврат возможен только при ошибке со стороны сервиса до активации привилегии.</p>
+              </details>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="container footer-row">
+          <div>
+            <div class="brand footer-brand">
+              <span class="brand-mark">V</span>
+              <div>
+                <span class="brand-title">Valkyrie</span>
+                <span class="brand-subtitle">Realm</span>
+              </div>
+            </div>
+          </div>
+
+          <p>© <span id="year"></span> Valkyrie Realm. Все права защищены.</p>
+
+          <a href="#tiers" class="btn btn-primary">Поддержать проект</a>
+        </div>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+

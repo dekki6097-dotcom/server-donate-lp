@@ -1,0 +1,18 @@
+document.addEventListener("DOMContentLoaded", () => {
+  const yearEl = document.getElementById("year");
+  if (yearEl) {
+    yearEl.textContent = new Date().getFullYear();
+  }
+
+  const tierCards = document.querySelectorAll(".tier-card");
+  tierCards.forEach((card) => {
+    card.addEventListener("mouseenter", () => {
+      card.style.transform = "translateY(-8px)";
+    });
+
+    card.addEventListener("mouseleave", () => {
+      card.style.transform = "";
+    });
+  });
+});
+
